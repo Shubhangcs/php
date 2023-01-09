@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+.main-login{
+    margin-top:150px;
+}
+.main-signup{
+    margin-top:150px;
+}
+.login-title{
+    padding-bottom: 18px;
+    color: black;
+    font-size: 20px;
+    font-weight: 1000;
+    font-family: potta one;
+}
+.login-input{
+    display: block;
+    padding: 8px 40px 8px 40px;
+    margin-top:20px;
+    border: 0;
+    border-radius:3px;
+}
+.login-button{
+    padding: 5px 75px 5px 75px;
+    margin-top:35px;
+    border: 0;
+    border-radius:3px; 
+    background-color:rgb(69, 69, 246);
+    color: white;
+    font-weight:500;
+}
+.link{
+    margin-top:30px;
+    font-weight: 1000;
+}
+.link a{
+    text-decoration: none;
+}
+::placeholder{
+  transform: translateX(-25px);
+}
+nav{
+    display: flex;
+    background-color: #4E9CAF;
+    max-height:50px;
+}
+.logo-font1{
+    position: absolute;
+    left: 44%;
+    transform: translateY(-70px);
+   
+}
+.logo-font2{
+    margin-left:40px;
+    transform: translateY(-12px);
+}
+.logo-head1{
+    font-size: 32px;
+    letter-spacing:-5px;
+}
+.logo-headtext1{
+    font-size:19px;
+   padding-left:10px;
+}
+.logo-subtext1{
+    display: block;
+    font-size: 9px;
+    transform: translateX(35px) translateY(-8px); 
+    word-spacing:-0.5px;
+}
+.logo-head2{
+    font-size: 32px;
+    letter-spacing:-5px;
+}
+.logo-headtext2{
+    font-size:19px;
+   padding-left:10px;
+}
+.logo-subtext2{
+    display: block;
+    font-size: 9px;
+    transform: translateX(83px) translateY(-8px); 
+    word-spacing:-0.5px;
+}
+.logout{
+    margin-left: 76%;
+    margin-top: 0.75%;
+    font-size: 14px;
+    width: 140px;
+    height: 25px;
+    background: #0926e6;
+    text-align: center;
+    border-radius:8px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 25px;
+}
+#slider{
+    height:400px;
+}
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+    div#slider { overflow: hidden; }
+    div#slider figure img { 
+        height: 400px;
+        object-fit: cover;
+        width: 20%; 
+        float: left; }
+    div#slider figure { 
+      position: relative;
+      width: 500%;
+      margin: 0;
+      left: 0;
+      text-align: left;
+      font-size: 0;
+      animation: 30s slidy infinite; 
+    }
+    .work-space{
+        margin-top: 50px;
+    }
+    .work-row1{
+        display: flex;
+    }
+    .work-row2{
+        display: flex;
+        margin-top: 50px; 
+    }
+    .work-sub1{
+      margin-left:20%; 
+      padding: 5px 50px 5px 50px ;
+    }
+    .work-sub1:hover{
+        transition:0.1s;
+        border-radius: 15px;
+        box-shadow: 3px 5px 5px 3px #0f0f0f;
+    }
+    .work-sub1text,.work-sub2text,.work-sub3text,.work-sub4text,.work-sub5text,.work-sub6text{
+        margin-top: -10px;
+        font-weight: 500;
+      }
+    .work-sub2{
+        margin-left:20%;
+        padding: 10px 30px 10px 30px ;
+      }
+      .work-sub2:hover{
+        transition:0.1s;
+        border-radius: 15px;
+        box-shadow: 3px 5px 5px 3px #0f0f0f;
+    }
+      .work-sub3{
+        margin-left:20%;
+        padding: 10px 30px 10px 30px ;
+      }
+      .work-sub3:hover{
+        transition:0.1s;
+        border-radius: 15px;
+        box-shadow: 3px 5px 5px 3px #0f0f0f;
+    }
+      .work-sub4{
+        margin-left:20%;
+        padding: 10px 30px 10px 30px ;
+      }
+      .work-sub4:hover{
+        transition:0.1s;
+        border-radius: 15px;
+        box-shadow: 3px 5px 5px 3px #0f0f0f;
+    }
+      .work-sub5{
+        margin-left:20%;
+        padding: 10px 30px 10px 30px ;
+      }
+      .work-sub5:hover{
+        transition:0.1s;
+        border-radius: 15px;
+        box-shadow: 3px 5px 5px 3px #0f0f0f;
+    }
+      .work-sub6{
+        margin-left:20%;
+        padding: 10px 30px 10px 30px ;
+     }
+     .work-sub6:hover{
+        transition:0.1s;
+        border-radius: 15px;
+        box-shadow: 3px 5px 5px 3px #0f0f0f;
+    }
+    
